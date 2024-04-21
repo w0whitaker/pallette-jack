@@ -11,10 +11,10 @@ let swatches = [];
 
 // Functions
 function createSwatch(v) {
-	const newSwatch = document.createElement("div");
-	newSwatch.className = "small";
-	newSwatch.style.backgroundColor = v;
-	colorOut.insertAdjacentElement("beforeend", newSwatch);
+	const swatchOut = document.createElement("div");
+	swatchOut.className = "small";
+	swatchOut.style.backgroundColor = v;
+	colorOut.insertAdjacentElement("beforeend", swatchOut);
 }
 
 // Event listeners
